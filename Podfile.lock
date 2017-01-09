@@ -14,18 +14,18 @@ PODS:
   - React/yoga (0.40.0)
 
 DEPENDENCIES:
-  - React/Core (from `../PodsReactNative/node_modules/react-native`)
-  - React/RCTNetwork (from `../PodsReactNative/node_modules/react-native`)
-  - React/RCTText (from `../PodsReactNative/node_modules/react-native`)
-  - React/RCTWebSocket (from `../PodsReactNative/node_modules/react-native`)
+  - React/Core (from `./PodsReactNative/node_modules/react-native`)
+  - React/RCTNetwork (from `./PodsReactNative/node_modules/react-native`)
+  - React/RCTText (from `./PodsReactNative/node_modules/react-native`)
+  - React/RCTWebSocket (from `./PodsReactNative/node_modules/react-native`)
 
 EXTERNAL SOURCES:
   React:
-    :path: "../PodsReactNative/node_modules/react-native"
+    :path: "./PodsReactNative/node_modules/react-native"
 
 SPEC CHECKSUMS:
   React: 6dfb2f72edb1d74a800127ae157af038646673ce
 
-PODFILE CHECKSUM: ca3d6da29b175df1400a8022fa924b396b264e20
+PODFILE CHECKSUM: 421618fd9489548b086174b962cc9fdb1124f824
 
 COCOAPODS: 1.1.1

@@ -6,7 +6,7 @@ target 'PodsRNTest' do
   use_frameworks!
 
   # Pods for PodsRNTest
-  pod 'React', :path => '../PodsReactNative/node_modules/react-native', :subspecs => [
+  pod 'React', :path => './PodsReactNative/node_modules/react-native', :subspecs => [
     'Core',
     'RCTText',
     'RCTNetwork',
